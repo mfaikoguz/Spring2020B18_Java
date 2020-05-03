@@ -10,6 +10,12 @@ public class Assessment_test_5_2_Odd_Numbers {
         System.out.print("#2: ");
         int num2 = s.nextInt();
 
-        
+        if (num1 % 2 == 0) {
+            num1++;
+        }
+        while (num1 <= num2) {
+            System.out.print(num1 + " ");
+            num1 += 2;
+        }
     }
 }
