@@ -6,11 +6,13 @@ import java.util.Arrays;
 
 public class A_181_Methods_with_ArrayList_3_combine_arrays {
     public static String combineRs(String[] r1, String[] r2) {
-        ArrayList list = new ArrayList(Arrays.asList(r1));
+        ArrayList combine = new ArrayList(Arrays.asList(r1));
 
-        list.addAll(Arrays.asList(r2));
-        String.join("", list);
-        return String.join("", list);
+        String result = "";
+        for (Object each : combine) {
+            result += each;
+        }
+        return result;
 
     }
 }
