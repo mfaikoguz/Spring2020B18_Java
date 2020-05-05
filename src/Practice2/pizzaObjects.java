@@ -1,6 +1,6 @@
 package Practice2;
 
-public class pizzaMain {
+public class pizzaObjects {
     public static void main(String[] args) {
         pizza p = new pizza();
         p.size = "medium";

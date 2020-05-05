@@ -6,7 +6,7 @@ public class Carpet {
     double unitPrice;
     boolean isPersian;
 
-    public void customOrder(int cWidth, int cLength, int cUnitPrice, boolean cIsPersian) {
+    public void customOrder(double cWidth, double cLength, double cUnitPrice, boolean cIsPersian) {
         width = cWidth;
         length = cLength;
         unitPrice = cUnitPrice;
