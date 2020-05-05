@@ -1,9 +1,9 @@
 package Practice2;
 
 public class Carpet {
-    int width;
-    int length;
-    int unitPrice;
+    double width;
+    double length;
+    double unitPrice;
     boolean isPersian;
 
     public void customOrder(int cWidth, int cLength, int cUnitPrice, boolean cIsPersian) {
@@ -14,7 +14,7 @@ public class Carpet {
     }
 
     public double calcCost() {
-        int cost = 0;
+        double cost = 0;
         if (isPersian) {
             cost = ((width + length) * unitPrice) + 200;
         } else {
