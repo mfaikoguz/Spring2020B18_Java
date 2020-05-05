@@ -10,7 +10,7 @@ public class CarObjects {
         car1.brand = "BMW";
         car1.model = "320i";
         car1.year = 2020;
-        car1.color = "Black";
+        car1.color = "Red";
 
         System.out.println(car1.brand); // instance variables are object variables, we can call them through the object name
         System.out.println(car1.model);
