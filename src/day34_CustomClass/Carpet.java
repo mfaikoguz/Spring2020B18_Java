@@ -1,4 +1,4 @@
-package Practice2;
+package day34_CustomClass;
 
 public class Carpet {
     double width;
