@@ -1,4 +1,4 @@
-package Practice2;
+package day35_Static;
 
 public class Offer {
     String location;

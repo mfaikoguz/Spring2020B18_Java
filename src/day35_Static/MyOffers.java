@@ -1,4 +1,4 @@
-package Practice2;
+package day35_Static;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,9 +32,9 @@ public class MyOffers {
 
         System.out.println("=================================================");
 
-        offers.removeIf(o -> o.isFullTime = false);
-        offers.removeIf(o -> !o.location.equalsIgnoreCase("Austin"));
-        offers.removeIf(o -> o.salary < 100000);
+        offers.removeIf(p -> p.isFullTime = false);
+        offers.removeIf(p -> !p.location.equalsIgnoreCase("Austin"));
+        offers.removeIf(p -> p.salary < 100000);
 
         for (int i = 0; i < offers.size(); i++) {
             Offer eachOffer = offers.get(i);
