@@ -1,43 +1,54 @@
 package Practice2;
 
 public class Person {
-    private String firstname;
-    private String lastname;
-    private int birthmonth;
-    private int birthday;
-    private int birthyear;
-    private String ssn;
+    private String firstName;
+    private String lastName;
+    private int age;
 
-    public Person(String firstname, String lastname, int birthmonth, int birthday, int birthyear, String ssn) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.birthmonth = birthmonth;
-        this.birthday = birthday;
-        this.birthyear = birthyear;
-        this.ssn = ssn;
+    public Person() {
+        firstName = "undefined";
+        lastName = "undefined";
+        age = -1;
     }
 
-    public String getFirstname() {
-        return firstname;
+    public Person(String firstName, String lastName, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
     }
 
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String getLastname() {
-        return lastname;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
+    public String getLastName() {
+        return lastName;
     }
 
-    public String getBirthday() {
-        return birthmonth + "/" + birthday + "/" + birthyear;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public boolean verifySSN(String verifiedSSN) {
-        return verifiedSSN.equals(ssn);
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String toString() {
+        return ("\"" + firstName + " | " + lastName + " | " + age + "\"");
+    }
+}
+
+class Main4 {
+    public static void main(String[] args) {
+        Person person1 = new Person("Mehmet", "Oguz", 21);
+        System.out.println(person1);
     }
 }
