@@ -132,17 +132,3 @@ fields/states to make sure it's correct.
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        StoreProduct obj1 = new StoreProduct();
-        System.out.println(obj1);
-        StoreProduct obj2 = new StoreProduct("milk", 5);
-        System.out.println(obj2);
-        StoreProduct obj3 = new StoreProduct("milk", 5, 2);
-        System.out.println(obj3);
-        StoreProduct obj4 = new StoreProduct("milk", 5, "dairy", true);
-        System.out.println(obj4);
-        StoreProduct obj5 = new StoreProduct("milk", 5, "dairy", true, 2);
-        System.out.println(obj5);
-    }
-}
