@@ -7,8 +7,8 @@ public class ShapeObjects {
 
         System.out.println(circle1.radius);
 
-        circle1.calculateArea(); // bug, suppose to be: Pi * r * r
-        circle1.calculatePerimeter(); // bug
+        circle1.calculateArea(); // bug, suppose to be: Pi * r * r --> solved
+        circle1.calculatePerimeter(); // bug --> solved
 
         System.out.println("=================================");
 
@@ -17,8 +17,8 @@ public class ShapeObjects {
         System.out.println(rectangle1.length);
         System.out.println(rectangle1.width);
 
-        rectangle1.calculateArea(); // bug suppose to be: w * l
-        rectangle1.calculatePerimeter(); // bug
+        rectangle1.calculateArea(); // bug suppose to be: w * l --> solved
+        rectangle1.calculatePerimeter(); // bug --> solved
 
         System.out.println("=================================");
 
@@ -26,8 +26,8 @@ public class ShapeObjects {
 
         System.out.println(square1.side);
 
-        square1.calculateArea(); // bug suppose to be: side * side
-        square1.calculatePerimeter(); // bug
+        square1.calculateArea(); // bug suppose to be: side * side --> solved
+        square1.calculatePerimeter(); // bug --> solved
 
     }
 }

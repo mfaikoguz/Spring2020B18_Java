@@ -9,6 +9,8 @@ class Test {
 
 public class MethodOverriding extends Test {
 
+    @Override // doesn't give error, that means we successfully overridden
+
     public void method() {
         System.out.println("Faik");
     }

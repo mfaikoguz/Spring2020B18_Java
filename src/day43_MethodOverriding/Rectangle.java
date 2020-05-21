@@ -15,4 +15,14 @@ public class Rectangle extends Shape {
         this.width = width;
     }
 
+    public void calculateArea() {
+        area = length * width;
+        System.out.println("Area of the shape: " + area);
+    }
+
+    public void calculatePerimeter() {
+        perimeter = 2 * (length + width);
+        System.out.println("Perimeter of the shape: " + perimeter);
+    }
+
 }

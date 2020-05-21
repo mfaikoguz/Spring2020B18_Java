@@ -9,6 +9,16 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    public void calculateArea() {
+        area = PI * radius * radius;
+        System.out.println("Area of the shape: " + area);
+    }
+
+    public void calculatePerimeter() {
+        perimeter = 2 * PI * radius;
+        System.out.println("Perimeter of the shape: " + perimeter);
+    }
+
     /*
     calculateArea & calculatePerimeter
      */
