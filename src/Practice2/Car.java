@@ -41,7 +41,8 @@ public class Car {
 }
 
 class Main7 {
-    Car car1 = new Car("Honda", "Civic", 4, 100, 15000);
+    public static void main(String[] args) {
+        Car car1 = new Car("Honda", "Civic", 4, 100, 15000);
+    }
 }
-
 // DONE!

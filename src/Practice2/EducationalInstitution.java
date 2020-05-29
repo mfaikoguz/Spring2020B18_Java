@@ -21,7 +21,7 @@ class LawSchool extends EducationalInstitution {
 
     @Override
     public String graduationRequirements() {
-        return duration + " years of study";
+        return duration + " years of study and passing the bar";
 
     }
 }
