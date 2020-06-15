@@ -1,4 +1,4 @@
-package day49_Polymorphisim;
+package day49_Polymorphism;
 
 interface downloadable {
 

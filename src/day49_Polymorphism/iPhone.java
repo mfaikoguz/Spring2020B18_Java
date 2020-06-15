@@ -1,4 +1,4 @@
-package day49_Polymorphisim;
+package day49_Polymorphism;
 
 public final class iPhone extends Phone implements AppleApps {
 
