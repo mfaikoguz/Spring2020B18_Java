@@ -14,7 +14,7 @@ interface I {
 
     public static void main(String[] args) {
         System.out.println(a);
-        // a = 2000;
+        // a = 2000; // can't do it. FINAL BY DEFAULT
 
     }
 

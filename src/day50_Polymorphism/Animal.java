@@ -1,6 +1,6 @@
 package day50_Polymorphism;
 
-public abstract class Animal { // 2 var, 2 in method
+public abstract class Animal { // 2 var, 2 methods
 
     public int age;
     public char gender;
