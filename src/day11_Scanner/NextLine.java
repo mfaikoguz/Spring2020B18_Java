@@ -11,5 +11,7 @@ public class NextLine {
         String str = input.nextLine(); //nextLine() accepts enter without typing anything else.
 
         System.out.println(str);
+
+
     }
 }

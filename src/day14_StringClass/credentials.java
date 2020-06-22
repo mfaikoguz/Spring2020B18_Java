@@ -8,7 +8,6 @@ public class credentials {
         username = Cybertek
         password= cybertekschool
          */
-
         String validUsername = "Cybertek";
         String validPassword = "cybertekschool";
 
