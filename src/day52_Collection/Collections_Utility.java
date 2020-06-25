@@ -10,7 +10,7 @@ public class Collections_Utility {
             System.out.println(list1);
 
             System.out.println("===================================");
-            //     1. write a program that can remove the duplicates for arraylist and print out in sorted asc order
+            // 1. write a program that can remove the duplicates for arraylist and print out in sorted asc order
 
             ArrayList<Integer> nums = new ArrayList<>();
             nums.addAll(Arrays.asList(100, 2000, 50, 50, 100, 200, 300, 50));
